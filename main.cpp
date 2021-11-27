@@ -70,13 +70,13 @@ int main() {
     }
     std::cout << std::endl << std::endl;
 
-    v2ReplaceValues(v2, mean);
+    v2ReplaceValues(v2, mean); //Step 8
     for(auto e: v2) {
         std::cout << e << ", ";
     }
     std::cout << std::endl << std::endl;
 
-    sortAndPrintV2(v2);
+    sortAndPrintV2(v2); //Step 9
 
     return 0;
 }
